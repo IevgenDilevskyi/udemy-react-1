@@ -4,7 +4,7 @@ import './Header.css'
 const reactDescriptions = ["Fundamental", "Crucial", " Core"]
 
 function genRandomInt(max) {
-  return Math.floor(Math.random() * (max))
+  return Math.floor(Math.random() * max)
 }
 
 export default function Header() {
