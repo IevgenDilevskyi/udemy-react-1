@@ -5,7 +5,7 @@ import CoreConcept from "./CoreConcept"
 export default function CoreConcepts() {
   return (
     <section id='core-concepts'>
-      <h2>Time to get started!</h2>
+      <h2>Core Concepts</h2>
       <ul>
         {CORE_CONCEPTS.map((concept) => (<CoreConcept {...concept} />))}
       </ul>
