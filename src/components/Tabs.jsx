@@ -1,4 +1,4 @@
-export default function Tabs({ children, buttons, buttonsContainer }) {
+export default function Tabs({ children, buttons, buttonsContainer = 'menu' }) {
   const ButtonsContainer = buttonsContainer // OR can accept ButtonsContainer directly as a prop, but need to pass it from a parent component as ButtonsContainer too
   return (
     <>
